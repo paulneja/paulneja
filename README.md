@@ -4,7 +4,7 @@
 
 ### Security Analyst & Full Stack Developer
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Defensive+tooling+%26+automation;Linux+internals+%E2%80%94+down+to+the+metal;Malware+analysis+%26+network+security;If+it+runs+code%2C+it+can+be+audited." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%26+systems+tinkerer;Backend%2C+frontend+%26+everything+in+between;Linux+enthusiast+%E2%80%94+down+to+the+metal;Always+building%2C+always+learning." alt="Typing SVG" />
 
 <br>
 
@@ -17,23 +17,15 @@
 
 <div align="center">
 
-## 🧠 Languages
+## Languages
 
-![My Skills](https://skillicons.dev/icons?i=c,cpp,rust,python,bash,java,kotlin,js,ts,html,css,php,go&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=c,cpp,rust,python,bash,java,kotlin,js,ts,html,css,php&theme=dark)
 
-## 🎨 Frontend
+## Databases
 
-![My Skills](https://skillicons.dev/icons?i=react,tailwind,sass,bootstrap,vite&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=postgres,mysql,sqlite&theme=dark)
 
-## ⚙️ Backend
-
-![My Skills](https://skillicons.dev/icons?i=nodejs,express,flask,django,spring&theme=dark)
-
-## 🗄️ Databases
-
-![My Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,redis&theme=dark)
-
-## 🛠️ Tools & DevOps
+## Tools & DevOps
 
 ![My Skills](https://skillicons.dev/icons?i=arch,linux,docker,git,github,vscode,cmake,nginx,postman,ubuntu,debian,arduino,raspberrypi&theme=dark)
 
@@ -41,9 +33,17 @@
 
 ## 🛡️ Security & Networking
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![YARA](https://img.shields.io/badge/YARA-005571?style=for-the-badge&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![tcpdump](https://img.shields.io/badge/tcpdump-072B61?style=for-the-badge&logoColor=white)
+![Aircrack-ng](https://img.shields.io/badge/Aircrack--ng-1F6FEB?style=for-the-badge&logoColor=white)
+![Scapy](https://img.shields.io/badge/Scapy-0A7E8C?style=for-the-badge&logoColor=white)
+![Netcat](https://img.shields.io/badge/Netcat-4D4D4D?style=for-the-badge&logoColor=white)
+![nftables](https://img.shields.io/badge/nftables-EE0000?style=for-the-badge&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![YARA](https://img.shields.io/badge/YARA-005571?style=for-the-badge&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-FF6B00?style=for-the-badge&logoColor=white)
 ![Magisk](https://img.shields.io/badge/Magisk-00AF9C?style=for-the-badge&logo=magisk&logoColor=white)
 ![KernelSU](https://img.shields.io/badge/KernelSU-000000?style=for-the-badge&logoColor=white)
@@ -97,10 +97,8 @@ Magisk-patched boot image + full instructions for unlocking & rooting the **Ulef
 
 <div align="center">
 
-### ⌨️ Editor of choice
+### Editor of choice
 
 ~~**`Vim`**~~ ❌ &nbsp;&nbsp; **`nano`** ✅
-
-<sub>🔐 Building defensive tools and taking systems apart to understand them.</sub>
 
 </div>
