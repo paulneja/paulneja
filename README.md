@@ -19,11 +19,23 @@
 
 ## 🧠 Languages
 
-![My Skills](https://skillicons.dev/icons?i=c,cpp,python,bash,rust,js,ts,html,css,arduino&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=c,cpp,rust,python,bash,java,kotlin,js,ts,html,css,php,go&theme=dark)
+
+## 🎨 Frontend
+
+![My Skills](https://skillicons.dev/icons?i=react,tailwind,sass,bootstrap,vite&theme=dark)
+
+## ⚙️ Backend
+
+![My Skills](https://skillicons.dev/icons?i=nodejs,express,flask,django,spring&theme=dark)
+
+## 🗄️ Databases
+
+![My Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,redis&theme=dark)
 
 ## 🛠️ Tools & DevOps
 
-![My Skills](https://skillicons.dev/icons?i=arch,linux,docker,git,github,vscode,cmake,nginx,sqlite,postman,ubuntu,debian,raspberrypi&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=arch,linux,docker,git,github,vscode,cmake,nginx,postman,ubuntu,debian,arduino,raspberrypi&theme=dark)
 
 ![QEMU/KVM](https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=for-the-badge&logo=qemu&logoColor=white)
 
