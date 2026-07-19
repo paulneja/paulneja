@@ -97,7 +97,6 @@ Magisk-patched boot image + full instructions for unlocking & rooting the **Ulef
 
 <div align="center">
 
-### Editor of choice
 
 ~~**`Vim`**~~ ❌ &nbsp;&nbsp; **`nano`** ✅
 
