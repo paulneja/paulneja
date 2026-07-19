@@ -17,22 +17,24 @@
 
 <div align="center">
 
-## 🧠 Tech Stack
+## 🧠 Languages
 
-![My Skills](https://skillicons.dev/icons?i=c,cpp,python,bash,rust,linux,arduino&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=c,cpp,python,bash,rust,js,ts,html,css,arduino&theme=dark)
 
 ## 🛠️ Tools & DevOps
 
-![My Skills](https://skillicons.dev/icons?i=docker,git,github,vscode,vim,qemu,nginx&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=arch,linux,docker,git,github,vscode,cmake,nginx,sqlite,postman,ubuntu,debian,raspberrypi&theme=dark)
+
+![QEMU/KVM](https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=for-the-badge&logo=qemu&logoColor=white)
 
 ## 🛡️ Security & Networking
 
-![Kali](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![YARA](https://img.shields.io/badge/YARA-005571?style=for-the-badge&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-FF6B00?style=for-the-badge&logoColor=white)
 ![Magisk](https://img.shields.io/badge/Magisk-00AF9C?style=for-the-badge&logo=magisk&logoColor=white)
+![KernelSU](https://img.shields.io/badge/KernelSU-000000?style=for-the-badge&logoColor=white)
 
 </div>
 
@@ -79,7 +81,13 @@ Magisk-patched boot image + full instructions for unlocking & rooting the **Ulef
 </tr>
 </table>
 
+---
+
 <div align="center">
+
+### ⌨️ Editor of choice
+
+~~**`Vim`**~~ ❌ &nbsp;&nbsp; **`nano`** ✅
 
 <sub>🔐 Building defensive tools and taking systems apart to understand them.</sub>
 
