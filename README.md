@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=190&section=header&text=paulneja&fontSize=62&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=low-level%20systems%20%C2%B7%20security%20%C2%B7%20full%20stack&descAlignY=56&descSize=16" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Kernel+space%2C+user+space%2C+and+everything+in+between;Full-stack+development+with+a+low-level+foundation;Custom+kernel+modifications+and+system+hardening;Building+secure+applications+and+resilient+infrastructure" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Kernel+space%2C+user+space%2C+and+everything+in+between;Full-stack+development+with+a+low-level+foundation;Custom+kernel+modifications+and+system+hardening;Building+applications+and+resilient+infrastructure" alt="typing" />
 
 <br><br>
 
