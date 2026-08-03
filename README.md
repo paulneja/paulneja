@@ -82,14 +82,7 @@ Modular tool for technical analysis & diagnostics for **defensive auditing** in 
 `Security` · `Windows` · `Blue Team`
 
 </td>
-<td width="50%" valign="top">
 
-### 📱 [ulefone-magisk-boot](https://github.com/paulneja/ulefone-power-armor14pro-unlock-magisk-boot)
-Magisk-patched boot image + full instructions for unlocking & rooting the **Ulefone Power Armor 14 Pro**.
-
-`Android` · `Magisk` · `Root`
-
-</td>
 </tr>
 </table>
 
