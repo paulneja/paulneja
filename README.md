@@ -20,7 +20,7 @@ I like the parts of computing most people abstract away: memory maps, syscall bo
 
 ## Featured work
 
-<table>
+<<table>
 <tr>
 <td width="50%" valign="top">
 
@@ -33,22 +33,22 @@ I like the parts of computing most people abstract away: memory maps, syscall bo
 </td>
 <td width="50%" valign="top">
 
-### [Syscage](https://github.com/paulneja/Syscage)
+### [zevory-system](https://github.com/paulneja/zevory-system)
 
-**Bare-metal sandbox in pure Bash.** Namespaces, cgroups v2 and Xephyr composed into a container-less jail for detonating and observing untrusted ELF binaries. No runtime, no daemon, no dependencies.
+**An independent distribution, built from upstream source** — not a reskin of anything. Rolling release, Wayland-first, with its own init and package manager on the roadmap. Bootstrap already boots on real hardware: Limine, a custom kernel config and a musl-static initramfs, PGP-verified end to end and reproducible from a clean clone.
 
-`Bash` `namespaces` `cgroups v2` `seccomp`
+`Linux` `Bash` `Limine` `BusyBox` `musl`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [SentinelDesk](https://github.com/paulneja/SentinelDesk)
+### [Syscage](https://github.com/paulneja/Syscage)
 
-Modular diagnostics and audit tooling for **defensive review of Windows environments** — host telemetry, configuration drift, artifact collection.
+**Bare-metal sandbox in pure Bash.** Namespaces, cgroups v2 and Xephyr composed into a container-less jail for detonating and observing untrusted ELF binaries. No runtime, no daemon, no dependencies.
 
-`Blue Team` `Windows` `Forensics`
+`Bash` `namespaces` `cgroups v2` `seccomp`
 
 </td>
 <td width="50%" valign="top">
@@ -62,7 +62,6 @@ Firmware experiments, kernel patches and half-finished ideas that occasionally t
 </td>
 </tr>
 </table>
-
 ---
 
 ## Stack
