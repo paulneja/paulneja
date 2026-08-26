@@ -86,7 +86,9 @@
 </div>
 
 <!-- ACTIVITY:START -->
-- The workflow refreshes this section from your latest public commits.
+- [Zevory-Linux](https://github.com/paulneja/Zevory-Linux/commit/1c8451cff9b482c4ae53ad2faf23144b5843adc3) · fix missing deps and the fake kvm fallback in the qemu tests · 2026-08-23
+- [Linux-on-esp32-S3](https://github.com/paulneja/Linux-on-esp32-S3/commit/912634fd808e5b49b147699fbc7ac6aef84d9ee4) · CHANGELOG: give 0.6 the entry it earned · 2026-07-31
+- [Syscage](https://github.com/paulneja/Syscage/commit/e4b762b602dd042b2508f3ab44957ac00408cfae) · Update README with smiley in Wine mode section · 2026-06-04
 <!-- ACTIVITY:END -->
 
 ---
