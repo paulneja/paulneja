@@ -1,0 +1,115 @@
+name: Update profile assets
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: paulneja
+          outputs: |
+            dist/github-snake.svg?palette=github-light
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publish snake assets
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  profile-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Update releases and activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          import subprocess
+
+          user = "paulneja"
+          featured = [
+              ("Linux-on-esp32-S3", "Linux on ESP32-S3"),
+              ("Zevory-Linux", "Zevory Linux"),
+              ("Syscage", "Syscage"),
+          ]
+
+          def gh(*args):
+              return subprocess.run(["gh", *args], text=True, capture_output=True)
+
+          releases = []
+          for repo, label in featured:
+              result = gh("api", f"repos/{user}/{repo}/releases/latest")
+              if result.returncode == 0:
+                  data = json.loads(result.stdout)
+                  published = data.get("published_at", "")[:10]
+                  releases.append(f"- [{label} {data['tag_name']}](https://github.com/{user}/{repo}/releases/tag/{data['tag_name']}) · {published}")
+              else:
+                  releases.append(f"- [{label}](https://github.com/{user}/{repo}) · development branch")
+
+          repos = gh("api", f"users/{user}/repos?type=owner&sort=pushed&per_page=100")
+          repo_data = json.loads(repos.stdout) if repos.returncode == 0 else []
+          public_repos = [r for r in repo_data if not r.get("private") and r["name"] != user]
+          public_repos.sort(key=lambda r: r.get("pushed_at") or "", reverse=True)
+
+          activity = []
+          for repo in public_repos[:3]:
+              result = gh("api", f"repos/{user}/{repo['name']}/commits?per_page=1")
+              if result.returncode != 0:
+                  continue
+              commits = json.loads(result.stdout)
+              if not commits:
+                  continue
+              commit = commits[0]
+              message = commit["commit"]["message"].splitlines()[0].replace("|", "\|")
+              date = commit["commit"]["author"]["date"][:10]
+              activity.append(f"- [{repo['name']}](https://github.com/{user}/{repo['name']}/commit/{commit['sha']}) · {message} · {date}")
+
+          release_block = "\n".join(releases) or "- No published releases yet."
+          activity_block = "\n".join(activity) or "- No recent public repository activity found."
+          readme_path = Path("README.md")
+          readme = readme_path.read_text()
+
+          def replace_between(text, start, end, value):
+              before, remainder = text.split(start, 1)
+              _, after = remainder.split(end, 1)
+              return before + start + "\n" + value + "\n" + end + after
+
+          readme = replace_between(readme, "<!-- RELEASES:START -->", "<!-- RELEASES:END -->", release_block)
+          readme = replace_between(readme, "<!-- ACTIVITY:START -->", "<!-- ACTIVITY:END -->", activity_block)
+          readme_path.write_text(readme)
+          PY
+
+      - name: Commit refreshed profile data
+        run: |
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+          git config user.name "paulneja"
+          git config user.email "jeremiasnejanky360@gmail.com"
+          git add README.md
+          git commit -m "Refresh profile activity"
+          git push
