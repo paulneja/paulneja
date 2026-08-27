@@ -92,32 +92,6 @@
 ---
 
 <div align="center">
-<h3>Latest releases</h3>
-</div>
-
-<!-- RELEASES:START -->
-Linux on ESP32-S3 0.6 · 2026-07-31
-
-Zevory Linux · development branch
-
-Syscage 1.0.0 · 2026-06-04
-<!-- RELEASES:END -->
-
-<div align="center">
-<h3>Recent activity</h3>
-</div>
-
-<!-- ACTIVITY:START -->
-Zevory-Linux · fix missing deps and the fake kvm fallback in the qemu tests · 2026-08-23
-
-Linux-on-esp32-S3 · CHANGELOG: give 0.6 the entry it earned · 2026-07-31
-
-Syscage · Update README with smiley in Wine mode section · 2026-06-04
-<!-- ACTIVITY:END -->
-
----
-
-<div align="center">
 <h3>Current focus</h3>
 <p>Boot chains · kernel and userspace boundaries · embedded Linux · reproducible systems · binary analysis</p>
 </div>
@@ -125,11 +99,7 @@ Syscage · Update README with smiley in Wine mode section · 2026-06-04
 <br />
 
 <div align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake-dark.svg" />
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake.svg" />
 <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake.svg" />
-</picture>
 <br /><br />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=120&section=footer" width="100%" alt="footer" />
 </div>
