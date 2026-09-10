@@ -1,16 +1,17 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=190&section=header&text=paulneja&fontSize=62&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=low-level%20systems%20%C2%B7%20security%20%C2%B7%20full%20stack&descAlignY=56&descSize=16" width="100%" alt="paulneja header" />
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&lines=Kernel+space%2C+user+space%2C+and+everything+in+between;Full-stack+development+with+a+low-level+foundation;Custom+kernel+modifications+and+system+hardening;Building+applications+and+resilient+infrastructure" alt="Typing SVG" />
-<br /><br />
+
+
+
 <a href="mailto:jeremiasnejanky360@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF&labelColor=0D1117" alt="Email" /></a>
 <a href="https://github.com/paulneja"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF&labelColor=0D1117" alt="GitHub" /></a>
+<img src="https://komarev.com/ghpvc/?username=paulneja&label=PROFILE+VIEWS&color=1F6FEB&style=for-the-badge" alt="Profile views" />
 </div>
-
----
 
 <div align="center"><i>I build where abstractions end: memory maps, syscall boundaries, linker scripts, boot paths, and binaries that must earn your trust.</i></div>
 
-<br />
+
 
 <table>
 <tr>
@@ -40,66 +41,89 @@
 <td width="50%" valign="top">
 <h3>More experiments</h3>
 <p>Firmware experiments, kernel patches, boot-chain work, and half-finished ideas that occasionally become the projects beside this card.</p>
-<br />
+
+
 <p><a href="https://github.com/paulneja?tab=repositories"><img src="https://img.shields.io/badge/browse_all_repositories-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF&labelColor=0D1117" alt="Browse all repositories" /></a></p>
 </td>
 </tr>
 </table>
 
----
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=paulneja&show_icons=true&hide_rank=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&hide_border=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulneja&layout=compact&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&hide_border=true" height="165" alt="Top languages" />
+
+
+<img src="https://streak-stats.demolab.com/?user=paulneja&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF&sideNums=C9D1D9&dates=C9D1D9&hide_border=true" alt="GitHub streak" />
+</div>
 
 <div align="center">
 
-<h3>Systems &amp; embedded</h3>
+<h3>Systems & embedded</h3>
 <img src="https://skillicons.dev/icons?i=c,cpp,rust,cmake,linux&theme=dark" alt="C, C++, Rust, CMake and Linux" />
 
-<h3>Application &amp; web</h3>
+<h3>Application & web</h3>
 <img src="https://skillicons.dev/icons?i=python,java,kotlin,ts,js,html,css&theme=dark" alt="Python, Java, Kotlin, TypeScript, JavaScript, HTML and CSS" />
 
-<h3>Infrastructure &amp; data</h3>
+<h3>Infrastructure & data</h3>
 <img src="https://skillicons.dev/icons?i=docker,git,bash&theme=dark" alt="Docker, Git and Bash" />
 
-<h3>Systems, build &amp; runtime</h3>
+
+<img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&labelColor=0D1117" alt="SQL" />
+
+<h3>Build & boot chain</h3>
 <img src="https://img.shields.io/badge/Buildroot-0D1117?style=for-the-badge&labelColor=0D1117" alt="Buildroot" />
 <img src="https://img.shields.io/badge/ESP--IDF-0D1117?style=for-the-badge&logo=espressif&logoColor=E7352C&labelColor=0D1117" alt="ESP-IDF" />
 <img src="https://img.shields.io/badge/Make-0D1117?style=for-the-badge&logo=gnu&logoColor=A42E2B&labelColor=0D1117" alt="GNU Make" />
+<img src="https://img.shields.io/badge/BusyBox-0D1117?style=for-the-badge&labelColor=0D1117" alt="BusyBox" />
+<img src="https://img.shields.io/badge/musl-0D1117?style=for-the-badge&labelColor=0D1117" alt="musl" />
+<img src="https://img.shields.io/badge/Limine-0D1117?style=for-the-badge&labelColor=0D1117" alt="Limine" />
+
+<h3>Virtualization & CI</h3>
 <img src="https://img.shields.io/badge/QEMU%20%2F%20KVM-0D1117?style=for-the-badge&logo=qemu&logoColor=FF6600&labelColor=0D1117" alt="QEMU KVM" />
 <img src="https://img.shields.io/badge/libvirt-0D1117?style=for-the-badge&labelColor=0D1117" alt="libvirt" />
 <img src="https://img.shields.io/badge/systemd-0D1117?style=for-the-badge&logo=systemd&logoColor=58A6FF&labelColor=0D1117" alt="systemd" />
 <img src="https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=0D1117" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/GPG%20%2F%20PGP-0D1117?style=for-the-badge&logo=gnuprivacyguard&logoColor=0093DD&labelColor=0D1117" alt="GPG PGP" />
-<img src="https://img.shields.io/badge/WireGuard-0D1117?style=for-the-badge&logo=wireguard&logoColor=88171A&labelColor=0D1117" alt="WireGuard" />
 
-<h3>Targets &amp; platform work</h3>
+<h3>Targets</h3>
 <img src="https://img.shields.io/badge/Xtensa-0D1117?style=for-the-badge&labelColor=0D1117" alt="Xtensa" />
 <img src="https://img.shields.io/badge/ESP32--S3-0D1117?style=for-the-badge&logo=espressif&logoColor=E7352C&labelColor=0D1117" alt="ESP32-S3" />
 <img src="https://img.shields.io/badge/NOMMU-0D1117?style=for-the-badge&labelColor=0D1117" alt="NOMMU" />
-<img src="https://img.shields.io/badge/Limine-0D1117?style=for-the-badge&labelColor=0D1117" alt="Limine" />
-<img src="https://img.shields.io/badge/musl-0D1117?style=for-the-badge&labelColor=0D1117" alt="musl" />
-<img src="https://img.shields.io/badge/BusyBox-0D1117?style=for-the-badge&labelColor=0D1117" alt="BusyBox" />
-<img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&labelColor=0D1117" alt="SQL" />
 
-<h3>Debugging &amp; isolation</h3>
+<h3>Debugging & isolation</h3>
 <img src="https://img.shields.io/badge/GDB-0D1117?style=for-the-badge&logo=gnu&logoColor=A42E2B&labelColor=0D1117" alt="GDB" />
 <img src="https://img.shields.io/badge/OpenOCD-0D1117?style=for-the-badge&labelColor=0D1117" alt="OpenOCD" />
 <img src="https://img.shields.io/badge/namespaces-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=0D1117" alt="namespaces" />
 <img src="https://img.shields.io/badge/cgroups%20v2-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=0D1117" alt="cgroups v2" />
 <img src="https://img.shields.io/badge/seccomp-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=0D1117" alt="seccomp" />
+
+<h3>Security & networking</h3>
+<img src="https://img.shields.io/badge/GPG%20%2F%20PGP-0D1117?style=for-the-badge&logo=gnuprivacyguard&logoColor=0093DD&labelColor=0D1117" alt="GPG PGP" />
+<img src="https://img.shields.io/badge/WireGuard-0D1117?style=for-the-badge&logo=wireguard&logoColor=88171A&labelColor=0D1117" alt="WireGuard" />
 <img src="https://img.shields.io/badge/nftables-0D1117?style=for-the-badge&labelColor=0D1117" alt="nftables" />
 
 </div>
-
----
 
 <div align="center">
 <h3>Current focus</h3>
 <p>Boot chains · kernel and userspace boundaries · embedded Linux · reproducible systems · binary analysis</p>
 </div>
 
-<br />
+
 
 <div align="center">
-<img alt="Contribution snake animation" src="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake.svg" />
-<br /><br />
+<img src="./metrics.svg" alt="GitHub metrics" />
+</div>
+
+
+
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake.svg" />
+<img alt="Contribution snake animation" src="https://raw.githubusercontent.com/paulneja/paulneja/output/github-snake-dark.svg" />
+</picture>
+
+
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=120&section=footer" width="100%" alt="footer" />
 </div>
