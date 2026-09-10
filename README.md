@@ -49,14 +49,6 @@
 </table>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=paulneja&show_icons=true&hide_rank=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&hide_border=true" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulneja&layout=compact&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&hide_border=true" height="165" alt="Top languages" />
-
-
-<img src="https://streak-stats.demolab.com/?user=paulneja&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF&sideNums=C9D1D9&dates=C9D1D9&hide_border=true" alt="GitHub streak" />
-</div>
-
-<div align="center">
 
 <h3>Systems & embedded</h3>
 <img src="https://skillicons.dev/icons?i=c,cpp,rust,cmake,linux&theme=dark" alt="C, C++, Rust, CMake and Linux" />
@@ -106,12 +98,6 @@
 <div align="center">
 <h3>Current focus</h3>
 <p>Boot chains · kernel and userspace boundaries · embedded Linux · reproducible systems · binary analysis</p>
-</div>
-
-
-
-<div align="center">
-<img src="./metrics.svg" alt="GitHub metrics" />
 </div>
 
 
