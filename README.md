@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <a href="mailto:jeremiasnejanky360@gmail.com">Email</a>
+  <a href="mailto:paulnejacontacto@gmail.com">Email</a>
   &nbsp;&middot;&nbsp;
   <a href="https://github.com/paulneja?tab=repositories">Repositories</a>
   &nbsp;&middot;&nbsp;
