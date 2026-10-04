@@ -54,35 +54,6 @@ for small machines. I also build full-stack applications and run DevPocket.
 </picture></a>
 </p>
 
-## Tools I work with
-
-<p align="center">
-  <b>Systems &amp; embedded</b><br /><br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash&amp;theme=dark&amp;perline=5" />
-    <img src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash&amp;theme=light&amp;perline=5" width="280" alt="C, C++, Rust, Linux and Bash" />
-  </picture>
-  <br /><sub>Xtensa &middot; NOMMU &middot; ESP-IDF &middot; Buildroot &middot; musl</sub>
-</p>
-
-<p align="center">
-  <b>Applications</b><br /><br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,kotlin&amp;theme=dark&amp;perline=5" />
-    <img src="https://skillicons.dev/icons?i=ts,js,python,java,kotlin&amp;theme=light&amp;perline=5" width="280" alt="TypeScript, JavaScript, Python, Java and Kotlin" />
-  </picture>
-  <br /><sub>Full-stack development &middot; SQL</sub>
-</p>
-
-<p align="center">
-  <b>Build, debugging &amp; infrastructure</b><br /><br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,git,githubactions,cmake&amp;theme=dark&amp;perline=4" />
-    <img src="https://skillicons.dev/icons?i=docker,git,githubactions,cmake&amp;theme=light&amp;perline=4" width="224" alt="Docker, Git, GitHub Actions and CMake" />
-  </picture>
-  <br /><sub>GDB &middot; OpenOCD &middot; strace &middot; QEMU/KVM &middot; Make &middot; Limine</sub>
-</p>
-
 ## Notes from the projects
 
 <p align="center">
