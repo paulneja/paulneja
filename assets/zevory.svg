@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="304" viewBox="0 0 440 304" role="img" aria-labelledby="title desc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16" fill="#1f2328">
+  <title id="title">Zevory Linux</title>
+  <desc id="desc">Upstream Linux distribution work. Limine boots the kernel, then ZevInit, a PID 1 in Rust linked with musl. The bootstrap has run on real hardware; ZevInit has only been tested in QEMU.</desc>
+  <style>.mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }</style>
+  <rect x="0.5" y="0.5" width="439" height="303" rx="14" fill="#f6f8fa" stroke="#cbd4de" />
+  <text x="24" y="32" fill="#0969da" font-size="13" font-weight="600" class="mono">02 / BOOT &amp; USERSPACE</text>
+  <text x="24" y="78" font-size="33" font-weight="650">Zevory Linux</text>
+  <text x="24" y="108" fill="#59636e" font-size="18">Upstream sources. A Rust PID 1.</text>
+  <rect x="24" y="139" width="120" height="64" rx="7" fill="#eaf1f8" stroke="#cbd4de" />
+  <text x="84" y="167" font-size="20" font-weight="600" text-anchor="middle">Limine</text>
+  <text x="84" y="188" fill="#59636e" font-size="13" text-anchor="middle" class="mono">bootloader</text>
+  <path d="M147 171H157m-4 -4 4 4 -4 4" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="160" y="139" width="120" height="64" rx="7" fill="#eaf1f8" stroke="#cbd4de" />
+  <text x="220" y="167" font-size="20" font-weight="600" text-anchor="middle">Linux</text>
+  <text x="220" y="188" fill="#59636e" font-size="13" text-anchor="middle" class="mono">kernel</text>
+  <path d="M283 171H293m-4 -4 4 4 -4 4" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="296" y="139" width="120" height="64" rx="7" fill="#eaf1f8" stroke="#0969da" />
+  <text x="356" y="167" font-size="20" font-weight="600" text-anchor="middle">ZevInit</text>
+  <text x="356" y="188" fill="#59636e" font-size="13" text-anchor="middle" class="mono">PID 1</text>
+  <text x="24" y="232" fill="#59636e">Shell lifecycle / orphan reaping / shutdown</text>
+  <path d="M24 250H416" fill="none" stroke="#cbd4de" stroke-width="1" />
+  <text x="24" y="278" font-size="15" font-weight="500">Bootstrap: hardware</text>
+  <text x="242" y="278" fill="#0969da" font-size="15" font-weight="500">ZevInit: QEMU</text>
+</svg>
